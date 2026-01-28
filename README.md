@@ -31,15 +31,16 @@ Workflow
     Verify response status.
     Repeat.
 
-How to Build Your Own Auto Form Filler ??
-    1. Open Google Form and inspect page source. (use beautifulsoap library for webscraping instead of doing this process manually)
-    2. Locate each entry.xxxxx ID.
-    3. Copy the form formResponse URL.
-    4. Create answer lists.
-    5. Map answers to entry IDs.
-    6. Send POST requests using Python requests.
-    7. Add delays between requests.
-    8. Test with small numbers.
+How to Build Your Own Auto Form Filler 
+    
+    Open Google Form and inspect page source. (use beautifulsoap library for webscraping instead of doing this process manually)
+    Locate each entry.xxxxx ID.
+    Copy the form formResponse URL.
+    Create answer lists.
+    Map answers to entry IDs.
+    Send POST requests using Python requests.
+    Add delays between requests.
+    Test with small numbers.
     
 Disclaimer:-
 This project is intended for educational purposes only. For real surveys, use authentication, email verification, and response limits to collect genuine data.
